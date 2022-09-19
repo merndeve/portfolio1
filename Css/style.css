@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+}
+header{
+    margin-top: 30px;
+}
+.wraper{
+    width: 1200px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 30px;
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 15px;
+}
+.logo img{}
+
+/* nav section */
+nav{
+    width: 80%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #37cc7a;
+    border-radius: 10px;
+}
+
+.contact{
+    width: 10%;
+    float: left;
+}
+.contact button{   
+padding: 10px;  
+border-radius: 10px;   
+background-color: #179cbf;
+}
+
+.contact button a{  
+text-decoration: none;   
+color: white;   
+font-size: 18px; 
+font-weight: 600;
+}
+
+/* about section */
+
+
+.about-section{
+    padding-top: 120px;
+    
+}
+.details{
+    width: 48%;
+    float: left;
+    text-align: center;
+    padding-right: 30px;
+}
+.details h4{
+    letter-spacing: 1px;
+}
+.details h1{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.details span{
+    font-size: 50px;
+}
+.details p{
+    text-align: justify;
+}
+.image{
+    width: 48%;
+    float: left;
+    text-align: center;
+    background: #f3f3fb;
+}
+
+/* Gallery starts */
+.gallery-part{
+    padding: 20px 0;
+}
+.mgallery{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.gallery h2{
+    text-align: center;
+    font-size: 35px;
+    
+}
+.single-image{
+    width: 280px;
+    
+}
+.single-image img{
+    max-width: 100%;
+    
+}
+.img-part{
+    width: 280px;
+}
+.img-part h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.img-part p{
+    text-align: center;
+    ;
+}
+.price-area{
+    padding: 10px 0;
+}
+.img-part a{
+    padding: 10px 0;
+    
+}
+
+
+
+/* Gallery Ends */
+
+/* footer start here */
+footer{
+    text-align: center;
+    padding: 20px 0;
+}
